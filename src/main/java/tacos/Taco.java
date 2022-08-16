@@ -9,8 +9,8 @@ import java.util.List;
 
 @Data
 public class Taco {
-    private Long id;
-    private Date createdAt;
+    private Long id;        //객체 고유 식별 코드.
+    private Date createdAt; //타코가 언제 생성되었는지.
 
     @NotNull
     @Size(min = 5, message="Name must be at least 5 characters long")

@@ -10,6 +10,13 @@ import tacos.Ingredient;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * 1.DB의 모든 식자재 데이트를 쿼리해 Ingredient 객체 컬렉션에 넣음 (findAll())
+ * 2.id를 사용해 하나의 Ingredient 쿼리.                     (findById(String id))
+ * 3.Ingredient 객체를 DB 저장                             (save(Ingredient ingredient))
+ */
+
+
 @Repository
 public class JdbcIngredientRepository implements IngredientRepository {
 
