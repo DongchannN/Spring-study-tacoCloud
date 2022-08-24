@@ -40,6 +40,7 @@ public class OrderController {
 
         orderRepo.save(order);
         sessionStatus.setComplete();
+
         return "redirect:/";
     }
 }
